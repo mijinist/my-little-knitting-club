@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Pixel Digivolve";
+  src: url("../Pixel_Digivolve.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pixel Digivolve";
+  src: url("../Pixel_Digivolve_Italic.otf") format("opentype");
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}
+
+:root {
+  --paper-cursor: url("../cursor.png") 6 8;
+}
+
+.project-card--pink {
+  background-image: url("../k5-2.jpg");
+}
+
+.project-card--blue {
+  background-image: url("../k3.jpg");
+}
+
+.project-card--yellow {
+  background-image: url("../c9.jpg");
+}
+
+.project-card--green {
+  background-image: url("../c1-1.jpg");
+}
