@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Pixel Digivolve";
-  src: url("../PS_Pixel_Digivolve/Pixel%20Digivolve.otf") format("opentype");
+  font-family: "Pixel_Digivolve";
+  src: url("../PS_Pixel_Digivolve/Pixel_Digivolve.otf") format("opentype");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "Pixel Digivolve";
-  src: url("../PS_Pixel_Digivolve/Pixel%20Digivolve%20Italic.otf") format("opentype");
+  src: url("../PS_Pixel_Digivolve/Pixel_Digivolve_Italic.otf") format("opentype");
   font-style: italic;
   font-weight: 400;
   font-display: swap;
