@@ -25,7 +25,7 @@
   --line: #d1789d;
   --shadow: rgba(116, 78, 98, 0.18);
   --display-font: "Pixel Digivolve", "Trebuchet MS", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-  --paper-cursor: url("cursor.png") 6 8;
+  --paper-cursor: url("/cursor.png") 6 8;
 }
 
 * {
