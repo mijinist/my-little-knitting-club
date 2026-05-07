@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Knitting Project | Soft Stitch Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body data-page="knitting">
+  <div class="site-shell">
+    <header class="hero">
+      <div class="hero__image">
+        <div class="hero__sparkle hero__sparkle--one"></div>
+        <div class="hero__sparkle hero__sparkle--two"></div>
+        <div class="logo-wrap logo-wrap--hero">
+          <img src="%EB%A1%9C%EA%B3%A01.png" alt="Soft Stitch Portfolio logo" class="site-logo" onerror="this.parentElement.classList.add('logo-wrap--missing')">
+          <span class="logo-fallback">Soft Stitch</span>
+        </div>
+      </div>
+      <nav class="top-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="knitting-project.html" aria-current="page">Knitting Project</a>
+        <a href="crochet-project.html">Crochet Project</a>
+        <a href="news.html">News</a>
+      </nav>
+    </header>
+
+    <main class="single-layout">
+      <section class="content">
+        <section class="panel thumbnail-board" aria-label="Knitting project thumbnails" data-project-board>
+          <div class="thumbnail-grid">
+            <a class="thumbnail-card" id="raindrop-tee" href="#raindrop-tee" data-project-card>
+              <img src="knitting%20image/k1.jpg" alt="raindrop tee">
+              <h2>raindrop tee</h2>
+            </a>
+            <a class="thumbnail-card" id="heart-pointed-gym-sack" href="#heart-pointed-gym-sack" data-project-card>
+              <img src="knitting%20image/k2.jpg" alt="heart-pointed gym sack">
+              <h2>heart-pointed gym sack</h2>
+            </a>
+            <a class="thumbnail-card" id="berlin" href="#berlin" data-project-card>
+              <img src="knitting%20image/k3.jpg" alt="berlin scarf">
+              <h2>berlin scarf</h2>
+            </a>
+            <a class="thumbnail-card" id="love-bug-hand-warmer" href="#love-bug-hand-warmer" data-project-card>
+              <img src="knitting%20image/k4.jpg" alt="love bug hand-warmer">
+              <h2>love bug hand-warmer</h2>
+            </a>
+            <a class="thumbnail-card thumbnail-card--duo" id="marshmallow" href="#marshmallow" data-project-card>
+              <img src="knitting%20image/k5-1.jpg" alt="marshmallow zip-up">
+              <img src="knitting%20image/k5-2.jpg" alt="">
+              <h2>marshmallow zip-up</h2>
+            </a>
+            <a class="thumbnail-card thumbnail-card--duo" id="tamagochi-double-knitting-scarf" href="#tamagochi-double-knitting-scarf" data-project-card>
+              <img src="knitting%20image/k6-1.jpg" alt="tamagochi double-knitting scarf(in progress)">
+              <img src="knitting%20image/k6-2.jpg" alt="">
+              <h2>tamagochi double-knitting scarf(in progress)</h2>
+            </a>
+            <a class="thumbnail-card" id="mohair-pullover" href="#mohair-pullover" data-project-card>
+              <img src="knitting%20image/k7.jpg" alt="mohair pullover(in progress)">
+              <h2>mohair pullover(in progress)</h2>
+            </a>
+          </div>
+          <div class="project-pagination" aria-label="Project pages">
+            <button type="button" class="project-page-btn" data-project-page-action="prev">Prev</button>
+            <span class="project-page-info">1 / 1</span>
+            <button type="button" class="project-page-btn" data-project-page-action="next">Next</button>
+          </div>
+        </section>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
