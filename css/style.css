@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Pixel_Digivolve";
-  src: url("PS_Pixel_Digivolve/Pixel_Digivolve.otf") format("opentype");
+  src: url("/Pixel_Digivolve.otf") format("opentype");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "Pixel Digivolve";
-  src: url("PS_Pixel_Digivolve/Pixel_Digivolve_Italic.otf") format("opentype");
+  src: url("/Pixel_Digivolve_Italic.otf") format("opentype");
   font-style: italic;
   font-weight: 400;
   font-display: swap;
@@ -354,19 +354,19 @@ h3 {
 }
 
 .project-card--pink {
-  background-image: url("k5-2.jpg");
+  background-image: url("/k5-2.jpg");
 }
 
 .project-card--blue {
-  background-image: url("/knitting%20image/k3.jpg");
+  background-image: url("/k3.jpg");
 }
 
 .project-card--yellow {
-  background-image: url("/crochet%20image/c9.jpg");
+  background-image: url("/c9.jpg");
 }
 
 .project-card--green {
-  background-image: url("/crochet%20image/c1-1.jpg");
+  background-image: url("/c1-1.jpg");
 }
 
 .guestbook-form {
