@@ -1,1 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Soft Stitch Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body data-page="home">
+  <div class="site-shell">
+    <header class="hero">
+      <div class="hero__image">
+        <div class="hero__sparkle hero__sparkle--one"></div>
+        <div class="hero__sparkle hero__sparkle--two"></div>
+        <div class="logo-wrap logo-wrap--hero">
+          <img src="%EB%A1%9C%EA%B3%A01.png" alt="Soft Stitch Portfolio logo" class="site-logo" onerror="this.parentElement.classList.add('logo-wrap--missing')">
+          <span class="logo-fallback">Soft Stitch</span>
+        </div>
+      </div>
+      <nav class="top-nav" aria-label="Main navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="knitting-project.html">Knitting Project</a>
+        <a href="crochet-project.html">Crochet Project</a>
+        <a href="news.html">News</a>
+      </nav>
+    </header>
 
+    <main class="layout">
+      <aside class="rightbar">
+        <section class="panel mini-profile">
+          <h2>Profile</h2>
+          <div class="avatar" aria-hidden="true">MJ</div>
+          <p>Kwon Mijin</p>
+          <p class="profile-contact">contact<br><a href="mailto:rnjsalwls@hanyang.ac.kr">rnjsalwls@hanyang.ac.kr</a></p>
+        </section>
+        <section class="panel visitor">
+          <h2>Visitor</h2>
+          <div class="counter" data-start="0" data-reset-id="reset-to-zero-v1" aria-label="Visitor number"></div>
+        </section>
+        <section class="panel calendar">
+          <h2 data-calendar-title>Calendar</h2>
+          <div class="calendar-grid" data-calendar-grid aria-label="Current month calendar"></div>
+        </section>
+      </aside>
+
+      <section class="content">
+        <article class="panel intro-card">
+          <span class="label">Welcome</span>
+          <h1>Soft Stitch Portfolio</h1>
+          <p>
+            이 포트폴리오는 니팅과 코바늘 작업을 작은 개인 홈페이지처럼 모아둔 공간입니다.
+            Home에서는 전체 프로젝트를 한눈에 정리하고, 각 카테고리 페이지에서는 제작 방식과
+            분위기, 사용감이 더 잘 보이도록 나누어 소개합니다.
+          </p>
+        </article>
+
+        <section class="panel">
+          <div class="section-heading">
+            <span class="label">Project Index</span>
+          </div>
+          <div class="project-grid">
+            <a class="project-card project-card--pink" href="knitting-project.html#marshmallow">
+              <span class="project-card__type">Knitting</span>
+              <h3>marshmallow zip-up</h3>
+            </a>
+            <a class="project-card project-card--blue" href="knitting-project.html#berlin">
+              <span class="project-card__type">Knitting</span>
+              <h3>berlin scarf</h3>
+            </a>
+            <a class="project-card project-card--yellow" href="crochet-project.html#star">
+              <span class="project-card__type">Crochet</span>
+              <h3>star cross-bag</h3>
+            </a>
+            <a class="project-card project-card--green" href="crochet-project.html#lily">
+              <span class="project-card__type">Crochet</span>
+              <h3>lily of the valley</h3>
+            </a>
+          </div>
+        </section>
+
+        <section class="panel guestbook">
+          <div class="section-heading">
+            <span class="label">Guest Book</span>
+          </div>
+          <form class="guestbook-form" aria-label="Guest book form">
+            <input type="text" name="name" maxlength="18" placeholder="name" aria-label="Name" required>
+            <input type="text" name="message" maxlength="80" placeholder="leave a sweet message" aria-label="Message" required>
+            <button type="submit">↵</button>
+          </form>
+          <div class="guestbook-list" data-reset-id="clear-guestbook-v1" aria-live="polite"></div>
+          <div class="guestbook-pagination" aria-label="Guest book pages">
+            <button type="button" class="guestbook-page-btn" data-page-action="prev">Prev</button>
+            <span class="guestbook-page-info">1 / 1</span>
+            <button type="button" class="guestbook-page-btn" data-page-action="next">Next</button>
+          </div>
+        </section>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
